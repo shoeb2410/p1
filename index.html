@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet'>
+
+
+       <link rel="stylesheet" href="style.css">
+
+
+    <title>Frontend Bootcamp</title>
+  </head>
+  <body >
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <a class="navbar-brand" href="">Fronted Bootcamp</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" p-1 collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#learn">What you'll Learn!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#question">Question</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Instructor">Instructor</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="bg-dark text-light p-5 p-lg-0 text-center">
+
+        <div class="container">
+
+          <div class=" p-5 pb-0 d-sm-flex align-items-center justify-content-between">
+            <div>
+              <h1>Become a <span class="text-warning"> Web Developer </span></h1>
+              <p class="lead my-4">
+                We focus on the skill's of Web Development so the student have better future.
+              </p>
+              <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll"> Start the Enrollment </button>
+            </div>
+
+            <img class="img-fluid w-50 d-none d-sm-block" src="img/dev1.svg" alt="developer_image">
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="bg-primary text-light p-4">
+
+        <div class="container" >
+
+          <div class="d-md-flex justify-content-between align-item-center">
+
+            <h3 class="mb-3 mb-md-0">Sign Up for Our Newsletter </h3>
+
+              <div class="input-group ">
+              <input type="text" class="form-control" placeholder="Enter email" >
+              <button class="btn btn-outline-secondary bg-dark text-light" type="button" id="button-addon2"> Subscribe </button>
+
+              </div>
+
+          </div>
+
+       </div>
+
+    </section>
+
+
+<section class="p-5">
+
+  <div class="container">
+    <div class="row  text-center g-4 row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+
+                <div class="card-body">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-laptop"></i>
+                  </div>
+                  <h3 class="card-title mb-3"> Virtual </h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn  btn-outline-secondary bg-primary text-light "> Read More </button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md">
+              <div class="card bg-secondary text-light">
+
+                <div class="card-body">
+                  <div class="h1 mb-3">
+
+                    <i class="bi bi-person-square"></i>
+                  </div>
+                  <h3 class="card-title mb-3"> Hybrid </h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn  btn-outline-secondary bg-dark text-light "> Read More </button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+
+                <div class="card-body">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-people"></i>
+                  </div>
+                  <h3 class="card-title mb-3"> Public </h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn  btn-outline-secondary bg-primary text-light "> Read More </button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+  </div>
+
+</section>
+
+<section  id="learn" class="p-5">
+
+  <div class="container">
+
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md">
+
+        <img class="img-fluid" src="img/lang.svg" alt="language_image">
+    </div>
+
+      <div class="col-md p-5">
+        <h2>Learn the Fundamentals</h2>
+      <p class="lead">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenean porttitor congue nulla, eu faucibus quam.
+
+      </p>
+
+      <p class="lead">
+        Donec gravida felis nec ultricies suscipit.
+        In hac habitasse platea dictumst.
+        Praesent id justo venenatis, aliquam nunc nec, euismod augue.
+      </p>
+
+      <a href="#" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"> Read more</i></a>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<section  id="learn" class=" bg-dark text-light p-5 mb-8">
+
+  <div class="container">
+
+    <div class="  row align-items-center justify-content-between">
+      <div class="col-md p-5">
+
+        <h2>Learn the Fundamentals</h2>
+      <p class="lead">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor congue nulla, eu faucibus quam. Donec gravida felis nec ultricies suscipit.In hac habitasse platea dictumst. Praesent id justo venenatis, aliquam nunc nec, euismod augue.
+      </p>
+
+      <a href="#" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"> Read more  </i></a>
+
+
+
+    </div>
+
+      <div class="col-md">
+
+          <img class="img-fluid" src="img/react.svg" alt="react_image">
+
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+<section id="question" class="p-5">
+  <div class="container">
+
+  <h3 class="text-center pt-4"> Frequently Asked Question </h3>
+  <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section  id="Instructor" class=" bg-primary text-center p-5">
+<div class="container">
+<h3 class="text-center text-light pb-4 pt-5">  Our Instructors </h3>
+<p class="text-center text-light pb-4 "> Our Instructors are having 5+ years of experiance in teaching web Development</p>
+  <div class="row  g-4">
+  <div class="col-md-6 col-lg-3">
+    <div class="card bg-light">
+
+      <img src="img/shoeb.png" class="  p-5 pb-0 align-items-center justify-content-between" alt="...">
+      <div class="card-body">
+
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+        <a href="https://twitter.com/?lang=en"><i class=" bi bi-twitter text-dark mx-1"></i></a>
+        <a href="https://www.facebook.com/"><i class=" bi bi-facebook text-dark mx-1"></i></a>
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram text-dark mx-1"></i></a>
+        <a href="https://www.google.com/intl/en-GB/gmail/about/#"><i class="bi bi-google text-dark mx-1"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="card bg-light">
+
+      <img src="img/shoeb.png" class="  p-5 pb-0 align-items-center justify-content-between" alt="...">
+      <div class="card-body">
+
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+        <a href="https://twitter.com/?lang=en"><i class=" bi bi-twitter text-dark mx-1"></i></a>
+        <a href="https://www.facebook.com/"><i class=" bi bi-facebook text-dark mx-1"></i></a>
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram text-dark mx-1"></i></a>
+        <a href="https://www.google.com/intl/en-GB/gmail/about/#"><i class="bi bi-google text-dark mx-1"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="card bg-light">
+
+      <img src="img/shoeb.png" class="  p-5 pb-0 align-items-center justify-content-between" alt="...">
+      <div class="card-body">
+
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+        <a href="https://twitter.com/?lang=en"><i class=" bi bi-twitter text-dark mx-1"></i></a>
+        <a href="https://www.facebook.com/"><i class=" bi bi-facebook text-dark mx-1"></i></a>
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram text-dark mx-1"></i></a>
+        <a href="https://www.google.com/intl/en-GB/gmail/about/#"><i class="bi bi-google text-dark mx-1"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-3">
+    <div class="card bg-light">
+
+      <img src="img/shoeb.png" class="  p-5 pb-0 align-items-center justify-content-between" alt="...">
+      <div class="card-body">
+
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+        <a href="https://twitter.com/?lang=en"><i class=" bi bi-twitter text-dark mx-1"></i></a>
+        <a href="https://www.facebook.com/"><i class=" bi bi-facebook text-dark mx-1"></i></a>
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram text-dark mx-1"></i></a>
+        <a href="https://www.google.com/intl/en-GB/gmail/about/#"><i class="bi bi-google text-dark mx-1"></i></a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+</section>
+
+<section class="p-5">
+  <div class="container">
+
+    <div class="row g-4">
+
+      <div class="col-md ">
+        <h2 class="text-center mb-4"> Contact Info </h2>
+        <ul class="list-group list-group-flush lead">
+          <li class="list-group-items "><span class="fw-bold"> Main Location: </span> 422006-Nashik, Maharashtra. </li>
+          <li class="list-group-items "><span class="fw-bold"> Enrollment Phone:  </span> (555)-555-5555. </li>
+          <li class="list-group-items "><span class="fw-bold"> Student Phone: </span> (888)-888-8888. </li>
+          <li class="list-group-items "><span class="fw-bold"> Enrollement Email: </span> enroll@Frontenddb.test  </li>
+          <li class="list-group-items "><span class="fw-bold"> Student Email: </span> Student@gmail.com </li>
+        </ul>
+      </div>
+
+      <div class="col-md">
+
+        <div id="map">
+
+        </div>
+
+       </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<footer class=" p-5 bg-dark text-white text-center position-relative">
+  <!-- Copyright -->
+  <div class="container" >
+   <p class="lead">Copyright &copy; 2021 Frontened Bootcamp </p>
+    <a class="position-absolute bottom-0 end-0 p-5" href=""> <i class="bi bi-arrow-up-circle h1"></i> </a>
+  </div>
+
+
+  <!-- Copyright -->
+</footer>
+
+
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Enter your details we will get back to you soon </p>
+
+        <form>
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">
+              First Name:
+            </label>
+            <input type="text" class="form-control" id="first-name">
+
+          </div>
+          <div class="mb-3">
+            <label for="last-name" class="col-form-label">
+              Last Name:
+            </label>
+            <input type="text" class="form-control" id="last-name">
+
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="col-form-label">
+              Email:
+            </label>
+            <input type="text" class="form-control" id="email">
+
+          </div>
+
+          <div class="mb-3">
+            <label for="phone" class="col-form-label">
+              Phone:
+            </label>
+            <input type="number" class="form-control" id="phone">
+
+          </div>
+
+        </form>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
+<script src="https://kit.fontawesome.com/5a46d0b4ef.js" crossorigin="anonymous"></script>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZGFubnktNzEyIiwiYSI6ImNrcW03OG40ZDE2aG4ycHBxODd4OXFpMjcifQ.7ZNLdLYi4MGPO2Y_ijD8Gg';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [73.789803,  19.997454 ],
+zoom: 18,
+})
+</script>
+
+
+</body>
+
+</html>
